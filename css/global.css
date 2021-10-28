@@ -1,0 +1,54 @@
+/*Text*/
+
+.text-center {
+    text-align: center;
+}
+
+.heading-small {
+    font-size: 1.25rem;
+}
+
+.heading-medium {
+    font-size: 1.5rem;
+}
+
+.heading-big {
+    font-size: 1.75rem;
+}
+
+
+/*Colors*/
+
+.bg-blue {
+    background: #110c4e;
+}
+
+
+/*Container */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#contact .contact-icon ul {
+    list-style-type: none;
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
+
+#contact .contact-icon ul li i {
+    padding: 1rem;
+    font-size: 2rem;
+    color: white;
+}
+
+#contact .contact-icon ul li i:hover {
+    opacity: 0.7;
+}
+
+#contact {
+    height: 100px;
+    margin-bottom: 0;
+}
